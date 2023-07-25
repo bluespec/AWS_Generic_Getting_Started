@@ -1,0 +1,47 @@
+= AWS Generic Getting-Started Guide
+
+This repo contains one document: a _generic_ (not project-specific)
+description of how one gets started on Amazon AWS EC2:
+
+* Obtaining an AWS account
+* Setting up an "instance" on Amazon AWS EC2
+* Connecting to an instance.
+
+All this information is of course available on Amazon AWS' own on-line
+documentation, but this narrative may be easier to follow for
+first-time users.
+
+The following commands render the sources into HTML and PDF,
+respectively (needs Sphinx/Restructured Text installation for HTML and
+LaTeX for PDF):
+
+----
+    $ make html
+    $ make latexpdf
+----
+
+Then, you can view the HTML version by pointing your browser at:
+
+----
+    _build/html/index.html
+----
+
+and you can view the PDF version by opening:
+
+----
+    _build/latex/awsgettingstarted.pdf
+----
+
+'''
+
+[NOTE]
+====
+This document's sources are for Sphinx/ReStructuredText:
+
+* "`Getting started with Sphinx`":
+  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+
+* "`reStructuredText: Markup Syntax and Parser Component of Docutils`":
+  https://docutils.sourceforge.io/rst.html
+
+====
